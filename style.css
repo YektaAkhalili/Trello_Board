@@ -1,0 +1,191 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  font-size: 16px;
+  background: #2261eb; 
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.clearfix{
+  clear: both;
+  width: 100%;
+}
+
+.header {
+  background: #0f4ca8;
+  height: 50px;
+}
+
+.search-bar {
+  float: left;
+  margin: 11px 3px;
+}
+
+.header-board-btn {
+  float: left;
+  background: #1a88e5;
+  color: white;
+  border: 0px;
+  border-radius: 3px;
+  padding: 5px 6px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 8px;
+  font-size: 19px;
+
+}
+
+.header-board-btn img {
+  width: 20px;
+  background: #1988e5;
+  position: relative;
+  top: 3px;
+}
+
+.search-bar input {
+  background: #1988e5;
+  border: 0px;
+  color: white;
+  width: 190px;
+  height: 24px;
+  border-radius: 3px;
+}
+
+.header-search img {
+  width: 13px;
+  height: 13px;
+  border-radius: 50px;
+}
+
+.header-search {
+  background: initial;
+  position: relative;
+  left: -36px;
+  top: 0px;
+  border: 0px;
+}
+
+.icons-right {
+    float: right;
+    margin-top: 10px;
+    margin-right: 4px;
+    border: 0px;
+}
+
+
+.icons-right img{
+  width: 10px;
+  background: initial;
+}
+
+.icons-right button {
+  height: 24px;
+  background: #3186f1;
+  border: 0px;
+  border-radius: 2px;
+  width: 25px;
+}
+
+.addPic {
+  border-radius: 50%;
+  margin: 0px -1px;
+}
+
+.infoPic {
+  border-radius: 50%;
+}
+
+.bellPic {
+  border-radius: 5px;
+  background: initial;
+}
+
+.accountPic {
+  margin: 0px -1px;
+}
+
+
+.name-center p {
+  font-family: 'Lobster', cursive;
+  font-size: 25px;
+  /* text-align: center; */
+  color: #ffffff87;
+  /* background-color: white; */
+  display: inline-block;
+  margin: 6px
+}
+
+.name-center img {
+  width: 23px;
+  /* float: left; */
+  border: 0px;
+  /* display: block; */
+  border-radius: 2px;
+  text-align: center;
+  margin: 0px auto;
+  display: inline-block;
+}
+
+
+.name-center{
+  text-align: center;
+}
+
+.nav-bar{
+  /* display: inline-block; */
+  height: 60px;
+}
+
+.navigation-bar{
+  color: white;
+  margin: 0px 10px;
+  display: inline-block;
+}
+
+.navigation-bar h3{
+  display: inline-block;
+}
+
+.nav-right{
+  display: inline-block;
+  color: white;
+  float: right;
+  margin: 0px 3px;
+}
+
+.content {
+  height: calc(100vh - 111px);
+  padding: 0px 10px;
+  display: inline-block;
+}
+
+.task-box {
+  background: #d3d3d3;
+  display: inline-block;
+  padding: 10px 10px;
+  border-radius: 5px;
+  width: 250px;
+  display: inline-block;
+}
+
+.task-box h4{
+  margin: 1px;
+}
+
+.task-list {
+    padding: 0px;
+}
+
+.task-list li{
+  list-style-type: none;
+  margin: 10px 0px;
+  padding: 10px;
+  background: white;
+  border-radius: 7px;
+}
